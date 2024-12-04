@@ -15,8 +15,8 @@ class AmazonS3Config {
 
     @Bean
     fun amazonS3(): AmazonS3 {
-        val accessKey = //access key  // Load from properties or environment
-        val secretKey = //seceret key  // Load from properties or environment
+        val accessKey = ""  // Load from properties or environment
+        val secretKey =""  // Load from properties or environment
         val region = Regions.AP_SOUTH_1// Set your desired region
 
         val awsCredentials = BasicAWSCredentials(accessKey, secretKey)
